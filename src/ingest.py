@@ -120,16 +120,10 @@ def process_pdf(pdf_path):
                     # highlight
                     "all_bboxes": [d["bbox"] for d in window],
                     # future-proof
-                    "content_type": "text"
+                    "content_type": "text",
+                    "passage_id": f'{doc_id}_p{page_num+1}_{window[0]["line_id"]}'
                 }
             })
 
     doc.close()
     return all_passages
-
-
-data = process_pdf("data_docs\YOLOv10_Tutorials.pdf")
-
-print("Passages:", len(data))
-print("First 2 passages:")
-print(data[:2])
