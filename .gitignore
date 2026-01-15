@@ -208,3 +208,5 @@ __marimo__/
 
 # data
 data_docs/
+uploaded_pdfs/
+chroma_db/
