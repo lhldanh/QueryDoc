@@ -1,0 +1,11 @@
+[theme]
+base = "dark"
+
+primaryColor = "#F7C873"        # vàng nhạt (hợp highlight)
+backgroundColor = "#0E1117"     # nền chính
+secondaryBackgroundColor = "#1E222A"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[server]
+maxUploadSize = 200
