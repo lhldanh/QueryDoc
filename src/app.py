@@ -124,7 +124,7 @@ def rebuild_multifile_index(engine: HybridRAGEngine, all_passages: List[Dict[str
 # =========================
 # UI
 # =========================
-st.set_page_config(page_title="Hybrid PDF RAG", layout="wide")
+st.set_page_config(page_title="QueryDoc", layout="wide")
 init_state()
 
 st.title("📄 QueryDoc")
