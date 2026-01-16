@@ -32,7 +32,7 @@
 
 ## 🗺️ System Pipeline
 
-![QueryDoc Pipeline](images\pipeline.svg)
+![QueryDoc Pipeline](images/pipeline.svg)
 
 ---
 
