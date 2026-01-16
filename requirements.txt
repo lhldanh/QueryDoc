@@ -1,0 +1,21 @@
+# Core dependencies
+streamlit>=1.30.0
+numpy>=1.24.0
+
+# PDF Processing
+PyMuPDF>=1.23.0  # fitz
+
+# Vector Store & Embeddings
+chromadb>=0.4.0
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.0.3
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+
+# BM25 for hybrid search
+rank-bm25>=0.2.2
+
+# HuggingFace Transformers (for embeddings)
+transformers>=4.36.0
+sentence-transformers>=2.2.0
+torch>=2.0.0
